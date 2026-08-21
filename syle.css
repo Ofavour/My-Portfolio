@@ -84,7 +84,6 @@ section {
   padding: 50px 8vw;
 }
 .eyebrow {
-  font-size: 0.72rem;
   letter-spacing: 0.32em;
   text-transform: uppercase;
   color: var(--sage);
@@ -786,17 +785,11 @@ nav a:hover {
 
 .cert-row {
   display: flex;
-  flex-direction: row;
-  gap: 40px;
+  gap: 32px;
   align-items: flex-start;
 }
 
-.cert-row > div:first-child {
-  flex: 1;
-}
-
 .cert-row > div:last-child {
-  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
