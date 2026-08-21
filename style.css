@@ -783,18 +783,6 @@ nav a:hover {
   color: var(--sage);
 }
 
-.cert-row {
-  display: flex;
-  gap: 32px;
-  align-items: flex-start;
-}
-
-.cert-row > div:last-child {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .cert-row img {
   width: 100%;
   height: auto;
